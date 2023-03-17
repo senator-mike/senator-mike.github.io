@@ -1,0 +1,85 @@
+
+
+.cat, .bat, .mat, .mata, .bata, .chat {
+    height: 300px;
+    width: 500px;
+    margin-bottom: 30px;
+    border: solid 1px;
+    display: flex;
+}
+
+
+.cat{
+    width: 500px;
+    border: solid 1px #ccc;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-items: flex-start;
+
+}
+
+
+.cat > div {
+    border: solid 1px;
+    height: 70px;
+    width: 70px;
+    flex-wrap: wrap;
+
+}
+.a {
+    flex-grow: 1;
+}
+.bat > div {
+    border: solid 1px;
+    height: 70px;
+    width: 70px;
+
+}
+
+.bat {
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.mat > div {
+    border: solid 1px;
+    height: 70px;
+    width: 70px;
+}
+
+.mat {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.mata > div {
+    border: solid 1px;
+    height: 70px;
+    width: 70px;
+}
+
+.mata {
+justify-content: center;
+column-gap: 30px;
+
+}
+.bata > div {
+    border: solid 1px;
+    height: 70px;
+    width: 70px;
+}
+.bata {
+    justify-content: center;
+    column-gap: 30px;
+    align-items: end;
+}
+.chat > div {
+    border: solid 1px;
+    height: 70px;
+    width: 70px;
+}
+.chat {
+    align-items: center;
+    column-gap: 30px;
+    justify-content: end;
+}

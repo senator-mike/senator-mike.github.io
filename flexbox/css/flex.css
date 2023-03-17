@@ -1,0 +1,15 @@
+.container {
+    height: 150px;
+    border: 1px solid #510eee;
+display: flex;
+flex-direction: row-reverse;
+
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #f70642;
+    text-align: center;
+    
+}

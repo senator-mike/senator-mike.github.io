@@ -1,0 +1,69 @@
+body {
+    height: 100%;
+}
+.main {
+    height: 100%;
+
+    justify-items: center;
+
+}
+.check {
+    width: 100%;
+    display: flex;
+    
+}
+.logo {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    
+}
+.mama {
+    display: flex;
+    justify-content: center;
+
+}
+
+.now {
+    margin-left: 40px;
+}
+.dim {
+    
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+.chef {
+    padding-top: 20;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    border: 1px;
+}
+.chef li {
+    border: 1px solid rgb(182, 171, 171);
+    padding: 7px;
+    border-radius:7px ;
+    background-color: rgb(237, 244, 245);
+    
+    
+}
+
+.mot {
+    padding-top: 20;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+ul li a {
+    text-decoration:none;
+    list-style: none;
+}
+li {
+    list-style: none;
+}
